@@ -18,6 +18,7 @@ public class NiftyFetcher {
         HttpClient client = HttpClient.newBuilder()
                 .followRedirects(HttpClient.Redirect.NORMAL)
                 .build();
+        
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(NSE_URL))
