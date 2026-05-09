@@ -15,6 +15,7 @@ public class App {
         System.out.println("SYMBOL     | PRICE        | CHANGE");
         System.out.println("-----------------------------------");
         
+        
         for (StockData stock : niftyList) {
             System.out.println(stock);
         }
